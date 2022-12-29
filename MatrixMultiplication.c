@@ -5,3 +5,9 @@
  *
  * return 0 always success.
  */
+
+int main()
+{
+
+    return 0;
+}
