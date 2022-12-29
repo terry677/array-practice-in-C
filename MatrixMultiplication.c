@@ -85,6 +85,16 @@ int main()
                 c[i][j] = sum;
             }
         }
+        // printing the elements of the matrix C
+        printf("The matrix C is\n ");
+        for (i = 0; i < Arow; i++)
+        {
+            for (j = 0; j < Bcol; j++)
+            {
+                printf("%d\t", c[i][j]);
+            }
+            printf("\n");
+        }
     }
 
     return 0;
